@@ -5,7 +5,8 @@
      <!-- -000000000000000000000000000000000000000000 -->
 <!-- Button trigger modal -->
 
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal ">
+<button type="button" v-if="this.$store.getters.user"
+     class="btn btn-primary" data-toggle="modal" data-target="#exampleModal ">
  Add New Post
 </button>
 

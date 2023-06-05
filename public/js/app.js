@@ -6418,9 +6418,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 
 
@@ -6487,6 +6484,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
 //
 //
 //
@@ -37069,14 +37067,13 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "container_fluid ", staticStyle: {} }, [
+    _c("div", { staticClass: "col-12 ", staticStyle: {} }, [
       _c("div", { staticClass: "row" }, [
         _c(
           "div",
           {
             staticClass:
               "d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 ",
-            staticStyle: { background: "#D5DBDB" },
           },
           [
             _c(
@@ -37109,10 +37106,7 @@ var render = function () {
         _vm._v(" "),
         _c(
           "div",
-          {
-            staticClass: " col-xs-12 col-sm-12 col-md-6- col-lg-6 col-xl-6 ",
-            staticStyle: { background: "#D5DBDB" },
-          },
+          { staticClass: " col-xs-12 col-sm-12 col-md-6- col-lg-6 col-xl-6 " },
           [
             _c("br"),
             _vm._v(" "),
@@ -37134,7 +37128,6 @@ var render = function () {
           {
             staticClass:
               "d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 ",
-            staticStyle: { background: "#D5DBDB" },
           },
           [
             _c(
@@ -37191,18 +37184,20 @@ var render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "text-right" }, [
-    _c(
-      "button",
-      {
-        staticClass: "btn btn-primary",
-        attrs: {
-          type: "button",
-          "data-toggle": "modal",
-          "data-target": "#exampleModal ",
-        },
-      },
-      [_vm._v("\n Add New Post\n")]
-    ),
+    this.$store.getters.user
+      ? _c(
+          "button",
+          {
+            staticClass: "btn btn-primary",
+            attrs: {
+              type: "button",
+              "data-toggle": "modal",
+              "data-target": "#exampleModal ",
+            },
+          },
+          [_vm._v("\n Add New Post\n")]
+        )
+      : _vm._e(),
     _vm._v(" "),
     _c(
       "form",
@@ -58554,8 +58549,8 @@ var store = new vuex__WEBPACK_IMPORTED_MODULE_1__["default"].Store({
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\installprox\xampp\htdocs\myprojects\pro\anew\myfirst-blog\lara7\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\installprox\xampp\htdocs\myprojects\pro\anew\myfirst-blog\lara7\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\installprox\xampp\htdocs\myprojects\working2\first-blog\laravel-blog\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\installprox\xampp\htdocs\myprojects\working2\first-blog\laravel-blog\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

@@ -6,12 +6,19 @@
 @section('pagecontent')
     
     
-		<div id="app">
-      <div class="col-12 p-0 m-0">
-          <mynavbar class="col-12 p-0 m-0" mysite="{{config('app.name')}}" :lang="{{ json_encode(trans('myauth')) }}"></mynavbar>
-
-             <router-view :lang="{{ json_encode(trans('myauth')) }}"></router-view>
+		<div id="app"  style="background: #d5dbdb">
+      <div class="container-fluid m-0 p-0">
+         <div class="raw">
+             <mynavbar  class="col-12 p-0 m-0" mysite="{{config('app.name')}}" 
+               :lang="{{ json_encode(trans('myauth')) }}"></mynavbar>
+         </div>
       </div>
+              
+     
+     <div id="vbody" class="col-12 p-0 m-0" style="min-height:600px ">
+        <router-view :lang="{{ json_encode(trans('myauth')) }}" ></router-view>
+       
+     </div>
 		
 		</div>
 	
@@ -23,7 +30,6 @@
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
-
 }
 
 
@@ -33,10 +39,10 @@
   background: #555;
 }
 
-    ::-webkit-scrollbar-track {
+/*    ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px green;
   border-radius: 10px;
-}
+}*/
 
 /* Handle */
 ::-webkit-scrollbar-thumb {

@@ -9,13 +9,12 @@
 
 
 
-<div class="container_fluid " style=" " >
+<div class="col-12 " style=" " >
  <div class="row">
 
 
 
-     <div class="d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 " 
-   style="background:#D5DBDB">
+     <div class="d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 ">
    
 
    <!-- side bar right -->
@@ -43,8 +42,7 @@
 
 </div>
 
-<div class=" col-xs-12 col-sm-12 col-md-6- col-lg-6 col-xl-6 " 
-   style="background:#D5DBDB;">
+<div class=" col-xs-12 col-sm-12 col-md-6- col-lg-6 col-xl-6 " >
    
    
 <br>
@@ -67,8 +65,7 @@
   
 
 <!-- ------------------- -->
-   <div class="d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 " 
-   style="background:#D5DBDB ">
+   <div class="d-none d-md-none d-lg-block d-xl-block col-xs-12 col-sm-12 col-md-3- col-lg-3 col-xl-3 ">
    
 
 <div class="container" style="direction: rtl;">
